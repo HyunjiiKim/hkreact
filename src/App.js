@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import test from './test'
+import Coucou from './component/start';
 
 function App() {
   return (
-    <div><h1>Welcome to Hyunji's</h1></div>
+    <div className="App">
+      <Coucou />
+    </div>
   );
 }
-
 
 export default App;
